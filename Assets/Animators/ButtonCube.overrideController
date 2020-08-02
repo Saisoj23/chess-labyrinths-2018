@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: ButtonCube
+  m_Controller: {fileID: 9100000, guid: 8c39f0d3953484846b64da0457e8c953, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 3b7250ded28da7349babe2584a5c54d2, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 5a7ed808a64ab464d918b0233f9628fa, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 47ef625afadee3b40a60b214d0ebc059, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: b351d43a6c9161c43a1cd10ddf443b64, type: 2}
