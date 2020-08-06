@@ -24,7 +24,6 @@ public class UIUtils : MonoBehaviour {
 	virtual protected void Start ()
 	{
 		Debug.Log("Start de UI Utils");
-		if (dontDestroy != null) dontDestroy.UpdatePosition(down);
 	}
 
 	public void ActiveButton (Button button, bool active)
@@ -51,7 +50,6 @@ public class UIUtils : MonoBehaviour {
 
 	public void ExitGame()
 	{
-		dontDestroy.Destroy();
 		#if UNITY_EDITOR
 		EditorApplication.isPlaying = false;
 		#else

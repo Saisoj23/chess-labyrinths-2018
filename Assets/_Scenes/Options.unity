@@ -326,7 +326,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -50, y: 29.99997}
+  m_AnchoredPosition: {x: -50, y: 30}
   m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &59414122
@@ -1104,22 +1104,32 @@ PrefabInstance:
     - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
         type: 3}
       propertyPath: m_textInfo.characterCount
-      value: 0
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
         type: 3}
       propertyPath: m_textInfo.wordCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
         type: 3}
       propertyPath: m_textInfo.lineCount
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
         type: 3}
       propertyPath: m_textInfo.pageCount
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
+        type: 3}
+      propertyPath: m_text
+      value: Music
+      objectReference: {fileID: 0}
+    - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
+        type: 3}
+      propertyPath: m_textInfo.spaceCount
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7331e93cac212454c8c7efff909b1084, type: 3}
@@ -1657,16 +1667,6 @@ PrefabInstance:
       propertyPath: m_EffectDistance.y
       value: -4
       objectReference: {fileID: 0}
-    - target: {fileID: 224581618144966016, guid: 7331e93cac212454c8c7efff909b1084,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 35.096832
-      objectReference: {fileID: 0}
-    - target: {fileID: 224581618144966016, guid: 7331e93cac212454c8c7efff909b1084,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -13.94462
-      objectReference: {fileID: 0}
     - target: {fileID: 774147939071827284, guid: 7331e93cac212454c8c7efff909b1084,
         type: 3}
       propertyPath: m_textInfo.characterCount
@@ -1696,6 +1696,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_textInfo.spaceCount
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 224581618144966016, guid: 7331e93cac212454c8c7efff909b1084,
+        type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 35.096832
+      objectReference: {fileID: 0}
+    - target: {fileID: 224581618144966016, guid: 7331e93cac212454c8c7efff909b1084,
+        type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -13.944618
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7331e93cac212454c8c7efff909b1084, type: 3}

@@ -38,7 +38,6 @@ public class PauseController : UIUtils {
 	{
 		base.Start();
 		Debug.Log("Start de Pause");
-		if (dontDestroy != null) dontDestroy.Hide(true);
 	}
 
 	void Update ()
@@ -106,29 +105,23 @@ public class PauseController : UIUtils {
 		if (Time.timeScale == 0)
 		{
 			Time.timeScale = 1f;
-			if (dontDestroy != null)
-			{
-				dontDestroy.Hide(true);
-			}
 			StartCoroutine(Fade(canvasGroup, false, false));
 		}
 		else if (Time.timeScale == 1)
 		{
-			if (dontDestroy != null)
-			{
-				dontDestroy.Hide(false);
-			}
 			StartCoroutine(Fade(canvasGroup, true, true));
 		}
 	}
 
 	public void Reestar ()
 	{
+		dontDestroy.TryAd();
 		GoToScene("Level" + levelNumber);
 	}
 
 	public void NextLevel ()
 	{
+		dontDestroy.TryAd();
 		if ((levelNumber + 1) <= maxlevel)
 		{
 			GoToScene("Level" + (levelNumber + 1));
