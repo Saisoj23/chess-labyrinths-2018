@@ -35,6 +35,7 @@ public class DontDestroyOnLoad : MonoBehaviour {
 
 	public void TryAd()
 	{
+		#if UNITY_ANDROID || UNITY_EDITOR
 		if (Time.time > nextAd && Advertisement.IsReady() && !Advertisement.isShowing)
 		{
 			nextAd = Time.time + 300; 
@@ -42,5 +43,8 @@ public class DontDestroyOnLoad : MonoBehaviour {
 			Advertisement.Show(video);
 			#endif
 		}
+		#else
+		return;
+		#endif
 	}
 }

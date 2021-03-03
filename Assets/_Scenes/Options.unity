@@ -1697,16 +1697,6 @@ PrefabInstance:
       propertyPath: m_textInfo.spaceCount
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 224581618144966016, guid: 7331e93cac212454c8c7efff909b1084,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 35.096832
-      objectReference: {fileID: 0}
-    - target: {fileID: 224581618144966016, guid: 7331e93cac212454c8c7efff909b1084,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -13.944618
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7331e93cac212454c8c7efff909b1084, type: 3}
 --- !u!1 &1616154357
