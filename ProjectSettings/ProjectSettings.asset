@@ -125,7 +125,7 @@ PlayerSettings:
     16:10: 1
     16:9: 1
     Others: 1
-  bundleVersion: 1.1.8
+  bundleVersion: 1.1.9
   preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
@@ -154,7 +154,7 @@ PlayerSettings:
       protectedContext: 0
       v2Signing: 0
     enable360StereoCapture: 0
-  protectGraphicsMemory: 0
+  protectGraphicsMemory: 1
   enableFrameTimingStats: 1
   useHDRDisplay: 0
   m_ColorGamuts: 00000000
@@ -167,9 +167,9 @@ PlayerSettings:
     Standalone: com.saisojscave.chesslabyrinths
   buildNumber:
     Standalone: 0
-  AndroidBundleVersionCode: 22
+  AndroidBundleVersionCode: 23
   AndroidMinSdkVersion: 22
-  AndroidTargetSdkVersion: 31
+  AndroidTargetSdkVersion: 30
   AndroidPreferredInstallLocation: 0
   aotOptions: 
   stripEngineCode: 1
